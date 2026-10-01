@@ -1,0 +1,8 @@
+arr = ["hello", "world", "madam", "level"]
+
+for word in arr:
+    if word == word[::-1]:
+        print("First Palindrome:", word)
+        break
+else:
+    print("No palindrome found")
